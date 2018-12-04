@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style media="screen">
+      h1 {
+        text-align: center;
+      }
+      span {
+        float:  right;
+        
+      }
+      
+      .submit {
+        text-align: center;
+      }
+
+      .about {
+          vertical-align: top;
+      }
+      body {
+        background-color: aqua;
+      }
+
+
+    </style>
+
+</head>
+
+<!-- start of the challenge -->
+<body >
+    <h1>Registration Form</h1>
+
+    <form action="post">
+    <table align="center">
+        <tbody>
+          <tr>
+            <td ><span> User id:</span></td>
+            <td> 
+              <input type="text" size="8px" required minlength="5" maxlength="12">
+            </td>
+          </tr>
+
+          <tr>
+            <td> <span>Password:</span>  </td>
+            <td><input type="password" size="8px" minlength="7" maxlength="12"></td>
+          </tr>
+
+          <tr>
+            <td><span>Name:</span></td>
+            <td><input type="text" name="fname" required placeholder=></td>
+          </tr>
+
+          <tr>
+            <td><span>Address:</span></td>
+            <td><input type="text" placeholder=></td>
+          </tr>
+<!-- the countries for the options -->
+          <tr>
+            <td><span>Country:</span></td>
+            <td>
+                <select width="20px" required>
+                  <option value="">(Please select a country) </option>
+                  <option value="canada">Canada</option>
+                  <option value="south-africa">South Africa</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="china">China</option>
+                  <option value="america">America</option>
+                  <option value="japan">Japan</option>
+                  <option value="germany">Germany</option>
+                </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><span>ZIP Code:</span></td>
+            <td><input type="text" required pattern="[0-9]{4}"></td>
+          </tr>
+
+          <tr>
+            <td><span>Email:</span></td>
+            <td><input type="email" name="" value=""></td>
+          </tr>
+
+          <tr>
+            <td><span>Sex:</span></td>
+            <td>
+              <input type="radio" name="sex">Male 
+              <input type="radio" name="sex">Female
+              <input type="radio" name="sex">Other
+            </td>
+          </tr>
+
+          <tr>
+            <td><span>Language:</span></td>
+            <td>
+              <input type="checkbox" name="language" value="">English
+              <input type="checkbox" name="language" value="">Non-English
+            </td>
+          </tr>
+
+          <tr>
+            <td class="about"><span>About:</span></td>
+            <td><textarea name="name" rows="10" cols="25"></textarea></td>
+          </tr>
+        </tbody>
+    </table>
+
+        <div class="submit">
+           <input type="submit" name="" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
+<!-- end of the challenge -->

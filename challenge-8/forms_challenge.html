@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body>
+    <!-- H1 added for heading of page -->
+    <h1>Registration Form</h1>
+    <!-- Opening form tag -->
+    <form action="">
+        <!-- Text field opened for name  -->
+        <input type="Name" placeholder="Your Name">
+
+        <!-- Text field opened for surname  -->
+        <p>
+            <input type="Surname" placeholder="Your Surname"
+        </p>
+
+        <!-- Date field added for date of birth-->
+        <p>
+           <input type="date" placeholder="Your D.O.B">
+           Your Date of Birth
+        </p>
+
+        <!-- Password input added -->
+        <P> 
+            <input type="password" placeholder="Your Password">
+        </P>
+
+        <!-- Selection box for gender (fe/male) -->
+        <select name="Gender" id="">
+            <option value=""> Male </option>
+            <option value=""> Female</option>
+            <option value=""> Other</option>
+        </select>
+
+        <!-- Horrizontal Line below introduction -->
+        <hr>
+
+        <!-- Added question one as a heading H3 -->
+        <h3>How often do you visit coffee shops?</h3>  
+        
+        <!-- Inserted radio buttons for muttliple choice answers -->
+            <p> 
+                Once a week
+                <input type="radio">
+            </p>
+            <p> 
+                Once a month
+                <input type="radio">
+            </p>
+            <p> 
+                Not at all
+                <input type="radio">
+            </p>
+
+        <!-- Text field to specify how often they visit coffee shops -->
+        <textarea name="" id="" cols="20" rows="5">Other</textarea>
+
+        <!-- Question 2 put in as a header -->
+        <h3>What is your favorite coffee shop? Where is it located?</h3>
+        
+        <!-- Text area for user to input feedback -->
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+
+        <!-- Added h3 for new heading -->
+        <h3>What do you typically order to drink?</h3>
+
+        <!-- Inserted radio buttons for some suggestions -->
+            <p> 
+                Hot Chocolate
+                <input type="radio">
+            </p>
+            <p> 
+                Cofee
+                <input type="radio">
+            </p>
+            <p> 
+                Tea
+                <input type="radio">
+            </p>
+
+        <!-- Text box for user to specify what they drink  -->
+        <textarea name="" id="" cols="20" rows="5">Other</textarea>
+
+
+        <!-- Added h3 for new question heading -->
+        <h3>Do you prefer large, national chain coffee shops or small, privately owned coffee shops?</h3>
+
+        <!-- text area added for user to comment on above quetion -->
+        <textarea name="" id="" cols="20" rows="5"></textarea>
+
+        <!-- horrizontal line for closing questionaire off -->
+        <hr>
+
+        <h3>Please fill in any queries or comments you may have</h3>
+
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+        
+        <p>
+         <input type="submit" name="Cofirm Form" value="Confirm Form">
+         <button type="reset" value="Reset">Reset</button>
+        </p>
+
+    </form>
+</body>
+</html>
